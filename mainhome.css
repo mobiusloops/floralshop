@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    border: 0;
+    height: 100%:
+}
+#nav{
+    width: 100%;
+     height: 50px;
+    position: fixed;
+    background-color: rgba(216,191,216, .4);
+    z-index: 99;
+}
+#nav_wrap{
+    width: 50%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nav_wrap ul li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+
+}
+#nav_wrap a{
+    color: aquamarine;
+
+    text-decoration: none;
+    
+}
+#nav_wrap ul li:hover{
+        padding: 19px;
+        background: rgba(225,25,225, .4);
+    transition: all .45s;
+}
+#nav_wrap a:visited{
+    color: white;
+}
+#linkref{
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+
+.sect{
+    height:100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px;
+}
+
+.subsec{
+    height: 75%;
+    background-color: bisque;
+}
+
+.sectOne{
+        background-image: url(flowerr.jpg);
+}
+
+.sectTwo{
+    background-image: url(flower2.jpg);
+    
+}
+
+.sectThree{
+    background-color: darkorchid;
+}
+.raw{
+    color: white;
+}
