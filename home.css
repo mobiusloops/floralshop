@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    background-color:white;
+}
+body{
+    margin:0px;
+}
+nav{
+	height: 40px;
+    padding: 20px;
+    text-align: center;
+    opacity: .8;
+}
+.nav-placeholder{
+    margin: 20 0 40px 0;
+}
+.link{
+    font-size:20px;
+    margin-left: 100px;
+    margin-right: 60px;
+    font-family:leon;
+    font-weight:normal;
+    letter-spacing:2.5px;
+    color:black;
+    text-decoration: none;
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;}
+.link:hover{
+    color:#FA93CA;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+}
+#container{
+    border-collapse:collapse;
+    width:10%;
+    float:left;
+    margin:5%;
+    position:fixed;
+    top:0px;
+}
+.section{
+	height: 200px;
+}
+#container, #pagename{
+    border:1px solid black;
+    background-color:white;
+}
+
+#useritems:hover{
+    color:#FA93CA;
+}
+#logo{
+    align-content:center;
+    width:25%;
+    margin:0;
+    margin-bottom:1%;
+    float:center;
+    margin-top:.5%;
+}
+#shopname{
+    width: 50%;
+    font-family:leon;
+    font-weight:normal;
+    letter-spacing:20px;
+}
+#tagline{
+    width: 50%;
+    font-size:16.8px;
+    font-family:serif;
+    font-style: italic;
+    font-weight:normal;
+}
+#alok{/*ewan ko */
+    font-family:leon;
+    font-size:150%;
+    font-weight:normal;
+    color:white;
+    background-color:black;
+    letter-spacing:3px;
+    padding:1.5%;
+    width:15%;
+    text-align:center;
+    text-decoration: none;
+    transition: background-color 0.3s linear;
+    -webkit-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+}
+#alok:hover{
+    background-color:pink;
+}
+@font-face{
+    font-family:leon;
+    src:url(leon.ttf);
+}
+#test{
+    margin-top:500%;
+}
+#bouquet{
+    width:35%;
+    float:right;
+    right:0;
+    margin-right:7%;
+    margin-top:12%;
+}
+.head{
+    font-family:leon;
+    font-size:300%;
+    font-weight:normal;
+    text-align:center;
+    color:white;
+    border:none;
+    padding-left:45%;
+    padding-right:40%;
+    padding-top:2.5%;
+    padding-bottom:2.5%;
+    
+}
+#a{
+    letter-spacing:4.7px;
+    text-align:left;
+    background-color:black;
+    
+}
+#b{
+    letter-spacing:1px;
+    text-align:left;
+    background-color:black;
+}
+#reviewsection{
+    width:100%;
+    height:300px;
+    background-color:black;
+    margin-top:60%; 
+
+}
+.slideshow{
+	clear: left;
+	float: right;
+	width: 100%;
+}
+.mySlides{
+    display:none;
+    float: right;
+	width: 50%;
+    }
+
+
+    /*product*/
+.psection{
+    height: 140px;
+}
+#wrapper2{
+    height: 100%;
+}
+.items{
+    float: left;
+    height: 90%;
+    width: 75%;
+    margin-top: 2%;
+    padding: 5px 5px 5px 5px;
+}
+.choices{
+    float: left;
+    width: 13%;
+    height: 25%;
+    padding: 15px 0px 10px 65px;
+    margin: 2%;
+}
+.sample{
+    cursor: pointer;
+    padding: 10px;
+    float: left;
+
+}
+.sample2{
+    cursor: pointer;
+    padding: 10px;
+    top: 9%;
+    float: left;
+}
+.sample3{
+    cursor: pointer;
+    padding: 10px;
+    top: 20%;
+    float: left;
+}
+input {
+    display: none;
+    padding: 5px;
+}
+input[type=checkbox]:checked + label[for="test"] {
+    background-color: pink;
+    padding: 10px;
+}
+input[type=checkbox]:checked + label[for="test2"] {
+    background-color: pink;
+    padding: 10px;
+}
+input[type=checkbox]:checked + label[for="test3"] {
+    background-color: pink;
+    padding: 10px;
+}
+
+.hold {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    float: left;
+    margin-left: 50px;
+    height: 40%;
+    width: 25%;
+    position: relative;
+}
+#desc {
+    text-align: center;
+}
+
+.img_desc_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(36, 62, 206, 0.6);
+  color: #FFF;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    transition: opacity .2s, visibility .2s;
+}
+.hold:hover .img_desc_layer  {
+        visibility: visible;
+        opacity: 1;
+}
+.img_description {
+    background: rgba(107,102,176, .5);
+    transition: .2s;
+    transform: translateY(1em);
+    opacity: 1;
+}
+.hold:hover .img_description {
+    transform: translateY(0);
+}
+
+​
